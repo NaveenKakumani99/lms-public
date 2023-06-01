@@ -15,7 +15,7 @@ spec:
        
       containers:
         - name: frontend
-          image: yellaiahdocker/frontend-working
+          image: naveen1016/minikube-frontend
           imagePullPolicy: Always
           ports:
             - containerPort: 80             
